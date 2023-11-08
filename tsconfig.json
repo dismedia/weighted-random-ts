@@ -1,0 +1,19 @@
+{
+  "buildOptions": {
+    "verbose": true
+  },
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist/**/*"
+  ]
+}
